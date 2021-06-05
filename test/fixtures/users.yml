@@ -1,0 +1,33 @@
+# == Schema Information
+#
+# Table name: users
+#
+#  id              :bigint           not null, primary key
+#  account_type    :integer
+#  email           :string
+#  first_name      :string
+#  last_name       :string
+#  mobile_number   :string
+#  password_digest :string
+#  role_type       :integer
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+
+one:
+  email: MyString
+  first_name: MyString
+  last_name: MyString
+  mobile_number: MyString
+  password_digest: MyString
+  role_type: 1
+  account_type: 1
+
+two:
+  email: MyString
+  first_name: MyString
+  last_name: MyString
+  mobile_number: MyString
+  password_digest: MyString
+  role_type: 1
+  account_type: 1
