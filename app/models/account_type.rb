@@ -7,5 +7,6 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-class ActionType < ApplicationRecord
+class AccountType < ApplicationRecord
+    has_one :user
 end
